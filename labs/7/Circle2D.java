@@ -50,7 +50,7 @@ public class Circle2D {
 
     //method that returns true if input circle object falls inside circle object
     private boolean contains(Circle2D circle) {
-        return distance(circle.x, circle.y) <= Math.abs(radius - circle.radius);
+        return distance(circle.x, circle.y) <= radius - circle.radius;
     }
 
     //method that returns true if input circle object overlaps other circle object
